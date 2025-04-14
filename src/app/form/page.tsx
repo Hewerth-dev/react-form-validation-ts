@@ -25,10 +25,10 @@ export default function Form() {
 
   const validateForm = () => {
     const newErrors: Partial<Form> = {};
-    if (!form.name) newErrors.name = "name requiered";
-    if (!form.email.includes("@")) newErrors.email = "email incorrect";
+    if (!form.name) newErrors.name = "Name requiered";
+    if (!form.email.includes("@")) newErrors.email = "Email incorrect";
     if (form.password.length < 6)
-      newErrors.password = "password required min 6 characteres";
+      newErrors.password = "A password of at least 6 characters is required";
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;

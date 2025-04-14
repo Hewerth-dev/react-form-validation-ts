@@ -27,7 +27,8 @@ A simple and responsive registration form built with **Next.js 15**, **React**, 
 
 ## 📸 Screenshots
 
-![Demo](./form-demo.png)
+![Demo](./form-react-1.png)
+![Demo](./form-react-2.png)
 
 ---
 
@@ -35,7 +36,7 @@ A simple and responsive registration form built with **Next.js 15**, **React**, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/form-validation-app.git
+git clone https://github.com/Hewerth-dev/form-validation-app.git
 cd form-validation-app
 
 # Install dependencies
@@ -51,4 +52,3 @@ npm run dev
 
 Created by **Hewerth Altamirano**  
 📧 hewerth.dev@gmail.com  
-[LinkedIn](https://linkedin.com/in/hew...)  
